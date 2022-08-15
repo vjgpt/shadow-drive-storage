@@ -1,0 +1,75 @@
+{
+  "wallet": "0x1234567890",
+  "type": "APPLICANT",
+  "name": "Alice",
+  "username": "alice",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1659859180278"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1659859180280"
+    }
+  },
+  "userId": "62ef70ec1cb8d7a604b57136",
+  "bio": "I like turtles",
+  "location": "San Francisco",
+  "website": "https://www.alice.com",
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "INTERMEDIATE"
+    }
+  ],
+  "expereince": [
+    {
+      "company": "Google",
+      "designation": "Software Engineer",
+      "from": {
+        "$date": {
+          "$numberLong": "1546300800000"
+        }
+      },
+      "to": {
+        "$date": {
+          "$numberLong": "1577836800000"
+        }
+      },
+      "location": "San Francisco",
+      "description": "I worked on Google Maps"
+    }
+  ],
+  "education": [
+    {
+      "school": "Stanford University",
+      "degree": "Bachelors",
+      "fieldOfStudy": "Computer Science",
+      "from": {
+        "$date": {
+          "$numberLong": "1420070400000"
+        }
+      },
+      "to": {
+        "$date": {
+          "$numberLong": "1546300800000"
+        }
+      },
+      "location": "Stanford, CA",
+      "description": "I studied computer science"
+    }
+  ],
+  "projects": [
+    {
+      "title": "My Project",
+      "description": "My project description",
+      "link": "https://www.myproject.com"
+    }
+  ],
+  "social": {
+    "github": "https://www.github.com/alice",
+    "linkedin": "https://www.linkedin.com/alice",
+    "twitter": "https://www.twitter.com/alice"
+  }
+}
